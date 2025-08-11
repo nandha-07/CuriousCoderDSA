@@ -3,22 +3,22 @@ class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a= scan.nextInt();
-        
-        if(a>=90){
-            System.out.println("Grade A");
-        }
-            
-        else if(a>=80 && a<90){
-           System.out.println("Grade B");
-        }
-        else if(a>=60 && a<80){
-           System.out.println("Grade C");
-        }
-        else if(a>=35 && a<60){
-           System.out.println("Grade D");
-        }
-        else{
-            System.out.println("Fail");
+        switch(a){
+            case 28:
+                System.out.println("Small");
+                break;
+            case 30:
+                System.out.println("Medium");
+                break;
+            case 38:
+                System.out.println("Large");
+                break;
+            case 42:
+                System.out.println("XLarge");
+                break;
+            default:
+                System.out.println("Invalid");
+                break;
         }
     }
 }
