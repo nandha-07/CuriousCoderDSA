@@ -3,13 +3,16 @@ class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a= scan.nextInt();
-        String b = scan.next();
-        char c = scan.next().charAt(0);
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int d = a+b+c;
         
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-       
-     
+        if(d==180){
+            System.out.println("Triangle can be formed");
+        }
+            
+        else{
+            System.out.println("Triangle can not be formed");
+        }
     }
 }
