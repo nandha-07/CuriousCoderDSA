@@ -2,10 +2,12 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
-        for(int i=100; i<=1000; i=i+100)
+        String a = scan.nextLine();
+        String b = scan.nextLine();
+        int d =scan.nextInt();
+        for(int i=0;i<=d;i++)
     {
-        System.out.println(i);
+        System.out.println(a+b);
 
     }
      }
