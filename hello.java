@@ -1,13 +1,12 @@
 import java.util.Scanner;
-
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int x = scan.nextInt();
-        int y = scan.nextInt();
 
-        for (int i = 0; i < y; i++) {
-            System.out.println(x);
-        }
+        for(int i=100; i<=1000; i=i+100)
+    {
+        System.out.println(i);
+
     }
+     }
 }
