@@ -2,13 +2,13 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String a = scan.nextLine();
-        String b = scan.nextLine();
-        int d =scan.nextInt();
-        for(int i=0;i<=d;i++)
-    {
-        System.out.println(a+b);
-
-    }
+        int N = scan.nextInt();
+        for(int i = 1; i<=N; i++){
+            for(int j=1; j<=N-i+1; j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+       
      }
 }
